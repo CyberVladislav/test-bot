@@ -12,6 +12,8 @@ class Button extends Model
     protected $fillable = [
         'title',
         'priority',
-        'type',
+        'callback_data',
+        'url',
+        'url_button_text',
     ];
 }
